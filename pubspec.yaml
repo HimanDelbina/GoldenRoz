@@ -1,0 +1,47 @@
+name: nima
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.1
+  connectivity: ^3.0.6
+  http: ^0.13.4
+  lottie: ^1.2.1
+  shared_preferences: ^2.0.8
+  flutter_typeahead: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/animations/
+    - assets/icon/navbarBold/
+    - assets/icon/navbarLight/
+    - assets/icon/Bulk/
+
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: fonts/Vazir.ttf
+
